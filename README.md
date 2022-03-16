@@ -1,4 +1,6 @@
 # PatientMonitor
+App for monitering patients (both in hospitals and at home)
+#Phase 0 Branching Strategy
 I was researching different branch strategies for GitHub and came across one called the Git Flow Branch Strategy. I have decided to loosly follow this strategy. I have several branches that will all be used for different purposes. 
 The main branch will be used for any deployable code I have completed.
 The developing branch will be used for any sections of the app that are mostly finished. 

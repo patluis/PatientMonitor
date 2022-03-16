@@ -1,5 +1,5 @@
 # PatientMonitor
-App for monitering patients (both in hospitals and at home)
+App for monitoring patients (both in hospitals and at home)
 
 ## Phase 0 Branching Strategy
 I was researching different branch strategies for GitHub and came across one called the Git Flow Branch Strategy. I have decided to loosly follow this strategy. I have several branches that will all be used for different purposes. 

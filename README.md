@@ -10,3 +10,10 @@ Finally, the needs-fixing branch will be used for any parts of the app that I am
 I have decided to use this method to organize my code because it can properly keep track of all of the stages of my code as I develop them. As I progress from needs-fixing to the developing I will merge completed code into the main branch and that will be what is ready for deployment. 
 
 ## Phase 1: Device Module
+###Json Schema
+1. Patient Name: Name of Patient 
+2. Date: Date of Service
+3. Device: Choose a device 
+4. Data: Enter the data correlated with said device 
+5. Unit: Choose a unit that correlates with the device
+

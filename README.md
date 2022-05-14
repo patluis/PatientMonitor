@@ -25,7 +25,7 @@ I have decided to use this method to organize my code because it can properly ke
 4. Date Sent
 
 ### Device Module 
-Webpage that allows users to fill in patient information. 
+Webpage that allows users to fill in patient information. Uses both write in and drop down menu.
 
 
 <img width="407" alt="Screen Shot 2022-05-13 at 8 22 30 PM" src="https://user-images.githubusercontent.com/60165420/168403884-21e1cda9-de78-436f-a3c4-69a0f72d50b0.png">

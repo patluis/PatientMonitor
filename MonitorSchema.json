@@ -1,0 +1,50 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Patient Devices",
+    "description": "Displaying the valid devices for the patient monitoring portal",
+    "type": "object",
+    "properties": {
+        "PatientName": {
+            "type": "string"
+        },
+        "Date": {
+            "type": "string"
+            
+        },
+        "Device": {
+            "enum": ["Scale", "Thermometor", "Blood Pressure Cuff", "Stethoscope"]
+           
+        },
+        "Data": {
+            "type": "number"
+            
+        },
+        "Measurement Type": {
+            "type": "string",
+            "properties": {
+                "Scale": {
+                    "enum": ["lbs"]
+                },
+                "Thermometor": {
+                    "enum": ["F"]
+                },
+                "Blood Pressure Cuff": {
+                    "enum": ["mmHg"]
+                
+                },
+                "Stethoscope": {
+                    "enum": ["bpm"]
+                }
+            }
+            
+            
+        }
+    },
+    "required": [
+        "name",
+        "date",
+        "device",
+        "data",
+        "Measurement Type"
+    ]
+}

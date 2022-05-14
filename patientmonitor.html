@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Patient Vitals</h2>
+
+<form action="/action_page.php">
+  <label for="fname">Patient Name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Date:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <label for="medicaldevice">Choose a Device:</label>
+  <select id="medicaldevice" name="meddevice">
+    <option value="scale">Scale</option>
+    <option value="thermometer">Thermometer</option>
+    <option value="blood pressure cuff">Blood Pressure Cuff</option>
+    <option value="stethoscope">Stethoscope</option>
+  </select><br>
+  <label for="medicalinfo">Enter Results:</label>
+  <input type="text" id="result" name="result" value="Value Result">
+  <select id="unitofmeasurement" name="units">
+    <option value="lbs">Lbs</option>
+    <option value="temperature">F</option>
+    <option value="mmHG">mmHg</option>
+    <option value="bpm">BPM</option>
+  </select><br>
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+"$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Chat Portal",
+    "description": "Json Schema for chat portal",
+    "type": "object",
+    "properties": {
+        "ID_OutUser": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000
+        },
+        "ID_InUser": {
+            "type": "integer",
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000
+        },
+        "Messages": {
+            "type": "string"
+        },
+        "TimeSent": {
+            "type": "object",
+            "properties": {
+                "Hour": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 24
+                },
+                "Minute": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 60
+                }
+            }
+        },
+        "DateSent": {
+            "type": "object",
+            "properties": {
+                "Month": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 12
+                    },
+                "Day": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 31
+                    },
+                "Year": {
+                    "type": "integer",
+                    "minimum": 2022,
+                    "maximum": 2222
+            
+                }
+            }
+        }
+    },
+    "required": [
+        "ID_OutUser",
+        "ID_InUser",
+        "Messages",
+        "TimeSent",
+        "DateSent"
+        
+    ]
+}

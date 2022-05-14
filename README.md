@@ -17,3 +17,14 @@ I have decided to use this method to organize my code because it can properly ke
 4. Data: Enter the data correlated with said device 
 5. Unit: Choose a unit that correlates with the device
 
+
+### Chat Schema 
+1. Incoming User ID
+2. Outgoing User ID
+3. Time Sent 
+4. Date Sent
+
+### Device Module 
+<img width="407" alt="Screen Shot 2022-05-13 at 8 22 30 PM" src="https://user-images.githubusercontent.com/60165420/168403827-10bbb979-a411-4700-beba-c56e94a8b51d.png">
+
+Webpage that allows users to fill in patient information. 
